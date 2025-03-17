@@ -1,6 +1,10 @@
 package com.theis.tutorial;
 
 import com.mojang.logging.LogUtils;
+import com.theis.tutorial.block.ModBlocks;
+import com.theis.tutorial.item.ModCreativeModeTabs;
+import com.theis.tutorial.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -34,6 +38,11 @@ public class TutorialMod
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -47,7 +56,20 @@ public class TutorialMod
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)  {
-       
+            if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+                event.accept(ModItems.TOPAZ);
+                event.accept(ModItems.SAPPHIRE);
+                event.accept(ModItems.RUBY);
+            }
+
+            if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+                event.accept(ModBlocks.TOPAZ_BLOCK);
+                event.accept(ModBlocks.TOPAZ_ORE);
+                event.accept(ModBlocks.SAPPHIRE_BLOCK);
+                event.accept(ModBlocks.SAPPHIRE_ORE);
+                event.accept(ModBlocks.RUBY_BLOCK);
+                event.accept(ModBlocks.RUBY_ORE);
+            }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

@@ -1,0 +1,15 @@
+{
+  "item.modvantheis.topaz": "Topaz",
+  "item.modvantheis.sapphire": "Sapphire",
+  "item.modvantheis.ruby": "Ruby",
+
+  "block.modvantheis.topaz_block": "Block of Topaz",
+  "block.modvantheis.topaz_ore": "Topaz Ore",
+  "block.modvantheis.sapphire_block": "Block of Sapphire",
+  "block.modvantheis.sapphire_ore": "Sapphire Ore",
+  "block.modvantheis.ruby_block": "Block of Ruby",
+  "block.modvantheis.ruby_ore": "Ruby",
+
+  "creativetab.modvantheis.mod_items": "Mod Items",
+  "creativetab.modvantheis.mod_blocks": "Mod Blocks"
+}
