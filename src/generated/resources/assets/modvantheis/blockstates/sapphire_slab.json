@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "modvantheis:block/sapphire_slab"
+    },
+    "type=double": {
+      "model": "modvantheis:block/sapphire_block"
+    },
+    "type=top": {
+      "model": "modvantheis:block/sapphire_slab_top"
+    }
+  }
+}

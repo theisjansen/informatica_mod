@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "alexandrite",
+  "ingredients": [
+    {
+      "item": "modvantheis:sapphire"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "modvantheis:sapphire_button"
+  }
+}

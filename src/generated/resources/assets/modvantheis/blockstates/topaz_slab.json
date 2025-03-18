@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "modvantheis:block/topaz_slab"
+    },
+    "type=double": {
+      "model": "modvantheis:block/topaz_block"
+    },
+    "type=top": {
+      "model": "modvantheis:block/topaz_slab_top"
+    }
+  }
+}

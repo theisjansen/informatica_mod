@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "modvantheis:block/ruby_block",
+    "side": "modvantheis:block/ruby_block",
+    "top": "modvantheis:block/ruby_block"
+  }
+}

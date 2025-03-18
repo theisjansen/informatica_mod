@@ -1,0 +1,7 @@
+// 1.21	2025-03-19T00:43:27.8617033	Tags for minecraft:block mod id modvantheis
+ea3de5d976d5495336c8a643cada3bbd2e88a8aa data/minecraft/tags/block/fences.json
+45e2e7181c7d2ece8a79f9cfd4907b34114ddbb8 data/minecraft/tags/block/fence_gates.json
+8b0569e5684e6e0b2d779e919d7418fa157e28a8 data/minecraft/tags/block/mineable/pickaxe.json
+6c3b59c11b953246b51bf564c961d1a207cd555d data/minecraft/tags/block/needs_diamond_tool.json
+f1696288238e294b9e203cb790fe872230ca8687 data/minecraft/tags/block/needs_iron_tool.json
+08cb44c8bc15ad1909540ffbcefc9c110cc8e4fb data/minecraft/tags/block/walls.json

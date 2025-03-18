@@ -5,10 +5,10 @@ import com.theis.tutorial.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -45,6 +45,62 @@ public class ModBlocks {
     public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4), BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final RegistryObject<StairBlock> TOPAZ_STAIRS = registerBlock("topaz_stairs",
+            () -> new StairBlock(ModBlocks.TOPAZ_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<SlabBlock> TOPAZ_SLAB = registerBlock("topaz_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<PressurePlateBlock> TOPAZ_PRESSURE_PLATE = registerBlock("topaz_pressure_plate",
+            () -> new PressurePlateBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<ButtonBlock> TOPAZ_BUTTON = registerBlock("topaz_button",
+            () -> new ButtonBlock(BlockSetType.IRON, 5, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noCollission()));
+
+    public static final RegistryObject<FenceBlock> TOPAZ_FENCE = registerBlock("topaz_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<FenceGateBlock> TOPAZ_FENCE_GATE = registerBlock("topaz_fence_gate",
+            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<WallBlock> TOPAZ_WALL = registerBlock("topaz_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<StairBlock> RUBY_STAIRS = registerBlock("ruby_stairs",
+            () -> new StairBlock(ModBlocks.RUBY_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<SlabBlock> RUBY_SLAB = registerBlock("ruby_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<PressurePlateBlock> RUBY_PRESSURE_PLATE = registerBlock("ruby_pressure_plate",
+            () -> new PressurePlateBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<ButtonBlock> RUBY_BUTTON = registerBlock("ruby_button",
+            () -> new ButtonBlock(BlockSetType.IRON, 5, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noCollission()));
+
+    public static final RegistryObject<FenceBlock> RUBY_FENCE = registerBlock("ruby_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<FenceGateBlock> RUBY_FENCE_GATE = registerBlock("ruby_fence_gate",
+            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<WallBlock> RUBY_WALL = registerBlock("ruby_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<StairBlock> SAPPHIRE_STAIRS = registerBlock("sapphire_stairs",
+            () -> new StairBlock(ModBlocks.SAPPHIRE_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<SlabBlock> SAPPHIRE_SLAB = registerBlock("sapphire_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<PressurePlateBlock> SAPPHIRE_PRESSURE_PLATE = registerBlock("sapphire_pressure_plate",
+            () -> new PressurePlateBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<ButtonBlock> SAPPHIRE_BUTTON = registerBlock("sapphire_button",
+            () -> new ButtonBlock(BlockSetType.IRON, 5, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noCollission()));
+
+    public static final RegistryObject<FenceBlock> SAPPHIRE_FENCE = registerBlock("sapphire_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<FenceGateBlock> SAPPHIRE_FENCE_GATE = registerBlock("sapphire_fence_gate",
+            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<WallBlock> SAPPHIRE_WALL = registerBlock("sapphire_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

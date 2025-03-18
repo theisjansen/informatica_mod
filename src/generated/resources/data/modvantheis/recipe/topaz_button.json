@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "alexandrite",
+  "ingredients": [
+    {
+      "item": "modvantheis:topaz"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "modvantheis:topaz_button"
+  }
+}

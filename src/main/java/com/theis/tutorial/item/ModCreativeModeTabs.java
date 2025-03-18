@@ -30,11 +30,35 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.modvantheis.mod_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.TOPAZ_BLOCK.get());
+                        output.accept(ModBlocks.TOPAZ_STAIRS.get());
+                        output.accept(ModBlocks.TOPAZ_SLAB.get());
+                        output.accept(ModBlocks.TOPAZ_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.TOPAZ_BUTTON.get());
+                        output.accept(ModBlocks.TOPAZ_FENCE.get());
+                        output.accept(ModBlocks.TOPAZ_FENCE_GATE.get());
+                        output.accept(ModBlocks.TOPAZ_WALL.get());
                         output.accept(ModBlocks.TOPAZ_ORE.get());
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        output.accept(ModBlocks.SAPPHIRE_STAIRS.get());
+                        output.accept(ModBlocks.SAPPHIRE_SLAB.get());
+                        output.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.SAPPHIRE_BUTTON.get());
+                        output.accept(ModBlocks.SAPPHIRE_FENCE.get());
+                        output.accept(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+                        output.accept(ModBlocks.SAPPHIRE_WALL.get());
                         output.accept(ModBlocks.SAPPHIRE_ORE.get());
                         output.accept(ModBlocks.RUBY_BLOCK.get());
+                        output.accept(ModBlocks.RUBY_BLOCK.get());
+                        output.accept(ModBlocks.RUBY_STAIRS.get());
+                        output.accept(ModBlocks.RUBY_SLAB.get());
+                        output.accept(ModBlocks.RUBY_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.RUBY_BUTTON.get());
+                        output.accept(ModBlocks.RUBY_FENCE.get());
+                        output.accept(ModBlocks.RUBY_FENCE_GATE.get());
+                        output.accept(ModBlocks.RUBY_WALL.get());
                         output.accept(ModBlocks.RUBY_ORE.get());
+
+
                     }).build());
 
     public static void register(IEventBus eventBus) {

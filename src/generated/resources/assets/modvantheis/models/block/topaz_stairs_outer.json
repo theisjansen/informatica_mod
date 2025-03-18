@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "modvantheis:block/topaz_block",
+    "side": "modvantheis:block/topaz_block",
+    "top": "modvantheis:block/topaz_block"
+  }
+}

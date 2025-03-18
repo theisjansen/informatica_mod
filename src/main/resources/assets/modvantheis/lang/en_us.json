@@ -11,6 +11,33 @@
   "block.modvantheis.ruby_block": "Block of Ruby",
   "block.modvantheis.ruby_ore": "Ruby",
 
+  "block.modvantheis.topaz_stairs": "Topaz Stairs",
+  "block.modvantheis.topaz_slab": "Topaz Slab",
+  "block.modvantheis.topaz_pressure_plate": "Topaz Pressure Plate",
+  "block.modvantheis.topaz_button": "Topaz Button",
+  "block.modvantheis.topaz_fence": "Topaz Fence",
+  "block.modvantheis.topaz_fence_gate": "Topaz Fence Gate",
+  "block.modvantheis.topaz_wall": "Topaz Wall",
+
+  "block.modvantheis.ruby_stairs": "Ruby Stairs",
+  "block.modvantheis.ruby_slab": "Ruby Slab",
+  "block.modvantheis.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.modvantheis.ruby_button": "Ruby Button",
+  "block.modvantheis.ruby_fence": "Ruby Fence",
+  "block.modvantheis.ruby_fence_gate": "Ruby Fence Gate",
+  "block.modvantheis.ruby_wall": "Ruby Wall",
+
+  "block.modvantheis.sapphire_stairs": "Sapphire Stairs",
+  "block.modvantheis.sapphire_slab": "Sapphire Slab",
+  "block.modvantheis.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.modvantheis.sapphire_button": "Sapphire Button",
+  "block.modvantheis.sapphire_fence": "Sapphire Fence",
+  "block.modvantheis.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.modvantheis.sapphire_wall": "Sapphire Wall",
+
   "creativetab.modvantheis.mod_items": "Mod Items",
-  "creativetab.modvantheis.mod_blocks": "Mod Blocks"
+  "creativetab.modvantheis.mod_blocks": "Mod Blocks",
+
+  "tooltip.modvantheis.wand.shift_down": "Right click on a material block to change it into a higher level ore! Or maybe try it on §kTopaz§r to get an even better block!",
+  "tooltip.modvantheis.wand": "Press §lShift§r to see more info!"
 }
