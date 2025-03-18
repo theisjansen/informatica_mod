@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "tutorialmod:topaz_ore"
+              "name": "modvantheis:topaz_ore"
             },
             {
               "type": "minecraft:item",
@@ -40,7 +40,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "tutorialmod:topaz"
+              "name": "modvantheis:topaz"
             }
           ]
         }
@@ -48,5 +48,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "tutorialmod:blocks/topaz_ore"
+  "random_sequence": "modvantheis:blocks/topaz_ore"
 }

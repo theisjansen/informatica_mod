@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "tutorialmod:ruby_ore"
+              "name": "modvantheis:ruby_ore"
             },
             {
               "type": "minecraft:item",
@@ -40,7 +40,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "tutorialmod:ruby"
+              "name": "modvantheis:ruby"
             }
           ]
         }
@@ -48,5 +48,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "tutorialmod:blocks/ruby_ore"
+  "random_sequence": "modvantheis:blocks/ruby_ore"
 }

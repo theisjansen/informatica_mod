@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "modvantheis:topaz_block"
+    },
+    "N": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "pattern": [
+    "  T",
+    " T ",
+    "N  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "modvantheis:wand"
+  }
+}

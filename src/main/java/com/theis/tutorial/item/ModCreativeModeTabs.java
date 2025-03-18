@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TOPAZ.get());
                         output.accept(ModItems.SAPPHIRE.get());
                         output.accept(ModItems.RUBY.get());
+                        output.accept(ModItems.WAND.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> MOD_BLOCKS_TAB = CREATIVE_MODE_TABS.register("mod_blocks_tab",

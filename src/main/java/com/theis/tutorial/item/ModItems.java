@@ -1,6 +1,7 @@
 package com.theis.tutorial.item;
 
 import com.theis.tutorial.TutorialMod;
+import com.theis.tutorial.item.custom.WandItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -19,6 +20,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> WAND = ITEMS.register( "wand",
+            () -> new WandItem(new Item.Properties().durability(64)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
