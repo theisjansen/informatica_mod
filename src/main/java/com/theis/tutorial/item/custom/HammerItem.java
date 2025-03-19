@@ -28,10 +28,34 @@ public class HammerItem extends DiggerItem {
                 ClipContext.Block.COLLIDER, ClipContext.Fluid.NONE, player));
         if(traceResult.getType() == HitResult.Type.MISS) {
             return positions;
-        } else {
+        }
+
+        if (traceResult.getDirection() == Direction.DOWN || traceResult.getDirection() == Direction.UP) {
             for (int x = -range; x <= range; x++) {
                 for (int y = -range; y <= range; y++) {
-                    positions.add(new BlockPos(initalBlockPos.getX() + x, initalBlockPos.getY() + y, initalBlockPos.getZ() + y));
+                    for (int z = -range; z <=range; z++) {
+                        positions.add(new BlockPos(initalBlockPos.getX() + x, initalBlockPos.getY() + z, initalBlockPos.getZ() + y));
+                    }
+                }
+            }
+        }
+
+        if(traceResult.getDirection() == Direction.NORTH || traceResult.getDirection() == Direction.SOUTH) {
+            for(int x = -range; x <= range; x++) {
+                for(int y = -range; y <= range; y++) {
+                    for (int z = -range; z <=range; z++) {
+                        positions.add(new BlockPos(initalBlockPos.getX() + x, initalBlockPos.getY() + y, initalBlockPos.getZ() + z));
+                    }
+                }
+            }
+        }
+
+        if(traceResult.getDirection() == Direction.EAST || traceResult.getDirection() == Direction.WEST) {
+            for(int x = -range; x <= range; x++) {
+                for(int y = -range; y <= range; y++) {
+                    for (int z = -range; z <=range; z++) {
+                        positions.add(new BlockPos(initalBlockPos.getX() + z, initalBlockPos.getY() + y, initalBlockPos.getZ() + x));
+                    }
                 }
             }
         }

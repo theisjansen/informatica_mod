@@ -2,6 +2,7 @@ package com.theis.tutorial.item;
 
 import com.theis.tutorial.TutorialMod;
 import com.theis.tutorial.item.custom.HammerItem;
+import com.theis.tutorial.item.custom.ModArmorItem;
 import com.theis.tutorial.item.custom.WandItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -44,7 +45,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> TOPAZ_HAMMER = ITEMS.register("topaz_hammer",
             () -> new HammerItem(ModToolTiers.TOPAZ, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(ModToolTiers.TOPAZ, 8, -4))));
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.TOPAZ, 8, -3.5f))));
 
     public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",
             () -> new SwordItem(ModToolTiers.RUBY, new Item.Properties()
@@ -64,7 +65,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> RUBY_HAMMER = ITEMS.register("ruby_hammer",
             () -> new HammerItem(ModToolTiers.RUBY, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(ModToolTiers.RUBY, 8, -4))));
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.RUBY, 8, -3.5f))));
 
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
             () -> new SwordItem(ModToolTiers.SAPPHIRE, new Item.Properties()
@@ -84,7 +85,50 @@ public class ModItems {
 
     public static final RegistryObject<Item> SAPPHIRE_HAMMER = ITEMS.register("sapphire_hammer",
             () -> new HammerItem(ModToolTiers.SAPPHIRE, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(ModToolTiers.SAPPHIRE, 8, -4))));
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.SAPPHIRE, 8, -3.5f))));
+
+
+    public static final RegistryObject<Item> TOPAZ_HELMET = ITEMS.register("topaz_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.TOPAZ_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(35))));
+    public static final RegistryObject<Item> TOPAZ_CHESTPLATE = ITEMS.register("topaz_chestplate",
+            () -> new ModArmorItem(ModArmorMaterials.TOPAZ_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(35))));
+    public static final RegistryObject<Item> TOPAZ_LEGGINGS = ITEMS.register("topaz_leggings",
+            () -> new ModArmorItem(ModArmorMaterials.TOPAZ_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(35))));
+    public static final RegistryObject<Item> TOPAZ_BOOTS = ITEMS.register("topaz_boots",
+            () -> new ModArmorItem(ModArmorMaterials.TOPAZ_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(35))));
+
+    public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(20))));
+    public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",
+            () -> new ModArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(20))));
+    public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings",
+            () -> new ModArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(20))));
+    public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
+            () -> new ModArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(20))));
+
+
+    public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.SAPPHIRE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(25))));
+    public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
+            () -> new ModArmorItem(ModArmorMaterials.SAPPHIRE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(25))));
+    public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings",
+            () -> new ModArmorItem(ModArmorMaterials.SAPPHIRE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(25))));
+    public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
+            () -> new ModArmorItem(ModArmorMaterials.SAPPHIRE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(25))));
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

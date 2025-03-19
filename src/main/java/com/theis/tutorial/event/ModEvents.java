@@ -30,7 +30,7 @@ public class ModEvents {
             }
             int range = 1;
             if (mainHandItem.is(ModItems.TOPAZ_HAMMER.get())) {
-                range = 4;
+                range = 3;
             } else if (mainHandItem.is(ModItems.SAPPHIRE_HAMMER.get())) {
                 range = 2;
             } else if (mainHandItem.is(ModItems.RUBY_HAMMER.get())) {

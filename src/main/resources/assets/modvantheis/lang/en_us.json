@@ -32,6 +32,22 @@
   "block.modvantheis.ruby_block": "Block of Ruby",
   "block.modvantheis.ruby_ore": "Ruby",
 
+  "item.modvantheis.topaz_helmet": "Topaz Helmet",
+  "item.modvantheis.topaz_chestplate": "Topaz Chestplate",
+  "item.modvantheis.topaz_leggings": "Topaz Leggings",
+  "item.modvantheis.topaz_boots": "Topaz Boots",
+
+  "item.modvantheis.sapphire_helmet": "Sapphire Helmet",
+  "item.modvantheis.sapphire_chestplate": "Sapphire Chestplate",
+  "item.modvantheis.sapphire_leggings": "Sapphire Leggings",
+  "item.modvantheis.sapphire_boots": "Sapphire Boots",
+
+  "item.modvantheis.ruby_helmet": "Ruby Helmet",
+  "item.modvantheis.ruby_chestplate": "Ruby Chestplate",
+  "item.modvantheis.ruby_leggings": "Ruby Leggings",
+  "item.modvantheis.ruby_boots": "Ruby Boots",
+
+
   "block.modvantheis.topaz_stairs": "Topaz Stairs",
   "block.modvantheis.topaz_slab": "Topaz Slab",
   "block.modvantheis.topaz_pressure_plate": "Topaz Pressure Plate",

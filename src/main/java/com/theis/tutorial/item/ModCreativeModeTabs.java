@@ -26,6 +26,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TOPAZ_HOE.get());
                         output.accept(ModItems.TOPAZ_HAMMER.get());
 
+                        output.accept(ModItems.TOPAZ_HELMET.get());
+                        output.accept(ModItems.TOPAZ_CHESTPLATE.get());
+                        output.accept(ModItems.TOPAZ_LEGGINGS.get());
+                        output.accept(ModItems.TOPAZ_BOOTS.get());
+
+
                         output.accept(ModItems.SAPPHIRE.get());
                         output.accept(ModItems.SAPPHIRE_SWORD.get());
                         output.accept(ModItems.SAPPHIRE_PICKAXE.get());
@@ -34,6 +40,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SAPPHIRE_HOE.get());
                         output.accept(ModItems.SAPPHIRE_HAMMER.get());
 
+                        output.accept(ModItems.SAPPHIRE_HELMET.get());
+                        output.accept(ModItems.SAPPHIRE_CHESTPLATE.get());
+                        output.accept(ModItems.SAPPHIRE_LEGGINGS.get());
+                        output.accept(ModItems.SAPPHIRE_BOOTS.get());
+
                         output.accept(ModItems.RUBY.get());
                         output.accept(ModItems.RUBY_SWORD.get());
                         output.accept(ModItems.RUBY_PICKAXE.get());
@@ -41,6 +52,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RUBY_AXE.get());
                         output.accept(ModItems.RUBY_HOE.get());
                         output.accept(ModItems.RUBY_HAMMER.get());
+
+                        output.accept(ModItems.RUBY_HELMET.get());
+                        output.accept(ModItems.RUBY_CHESTPLATE.get());
+                        output.accept(ModItems.RUBY_LEGGINGS.get());
+                        output.accept(ModItems.RUBY_BOOTS.get());
 
                         output.accept(ModItems.WAND.get());
                     }).build());
