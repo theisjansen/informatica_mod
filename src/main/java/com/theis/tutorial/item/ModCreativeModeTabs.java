@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TOPAZ_SHOVEL.get());
                         output.accept(ModItems.TOPAZ_AXE.get());
                         output.accept(ModItems.TOPAZ_HOE.get());
+                        output.accept(ModItems.TOPAZ_HAMMER.get());
 
                         output.accept(ModItems.SAPPHIRE.get());
                         output.accept(ModItems.SAPPHIRE_SWORD.get());
@@ -31,6 +32,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SAPPHIRE_SHOVEL.get());
                         output.accept(ModItems.SAPPHIRE_AXE.get());
                         output.accept(ModItems.SAPPHIRE_HOE.get());
+                        output.accept(ModItems.SAPPHIRE_HAMMER.get());
 
                         output.accept(ModItems.RUBY.get());
                         output.accept(ModItems.RUBY_SWORD.get());
@@ -38,6 +40,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RUBY_SHOVEL.get());
                         output.accept(ModItems.RUBY_AXE.get());
                         output.accept(ModItems.RUBY_HOE.get());
+                        output.accept(ModItems.RUBY_HAMMER.get());
 
                         output.accept(ModItems.WAND.get());
                     }).build());

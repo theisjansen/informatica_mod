@@ -1,8 +1,9 @@
-// 1.21	2025-03-19T12:06:46.4177405	Item Models: modvantheis
+// 1.21	2025-03-19T15:56:08.8562856	Item Models: modvantheis
 107ea31028987b204b9bd077b89ebad95aa13843 assets/modvantheis/models/item/ruby.json
 788089ed3b2e2de3524f523902c0e9a19857c381 assets/modvantheis/models/item/ruby_axe.json
 d067e6b403c8c04f16a30c744c0a251cb7528730 assets/modvantheis/models/item/ruby_button.json
 d1b785d0779da09c7b9aadba90e3c79638fb460e assets/modvantheis/models/item/ruby_fence.json
+f8e21a9caffdf0525eafb256ce25d18bc1f8aac2 assets/modvantheis/models/item/ruby_hammer.json
 7b82931e933fd8ada2691af5d53b97e8c2183300 assets/modvantheis/models/item/ruby_hoe.json
 de852d146efc65ed096ed8a81ad0372480815c7a assets/modvantheis/models/item/ruby_pickaxe.json
 043410a051c86271ed090936f9d37018195123cb assets/modvantheis/models/item/ruby_shovel.json
@@ -12,6 +13,7 @@ de852d146efc65ed096ed8a81ad0372480815c7a assets/modvantheis/models/item/ruby_pic
 390ee5016975ba4a38bd755db0748bf691b826ff assets/modvantheis/models/item/sapphire_axe.json
 b9ad970d71bdf294c4e5deecf755a7327efdec6d assets/modvantheis/models/item/sapphire_button.json
 890e88182c2524b1ff0b00b27712243d0a470ba5 assets/modvantheis/models/item/sapphire_fence.json
+43a681921ce76df585a9c76bb071a9cdf83755f5 assets/modvantheis/models/item/sapphire_hammer.json
 afa2201839e96c2799d2f833682d20436f014538 assets/modvantheis/models/item/sapphire_hoe.json
 5cc5a5c546ffaecfb669d24b917668530c26cebb assets/modvantheis/models/item/sapphire_pickaxe.json
 a4ad2527710a4b101e5ed63e3d04c9bc5a73a9b6 assets/modvantheis/models/item/sapphire_shovel.json
@@ -21,6 +23,7 @@ a4ad2527710a4b101e5ed63e3d04c9bc5a73a9b6 assets/modvantheis/models/item/sapphire
 2d875c243594eabb5b2bb90674a00c107daaabb7 assets/modvantheis/models/item/topaz_axe.json
 7a3bf04b668bc656984ad2d305eca169dc458f4e assets/modvantheis/models/item/topaz_button.json
 338b9381b698c18f3d846f5d32d5a22e9e99db10 assets/modvantheis/models/item/topaz_fence.json
+731634c341480a67fe221a9a81450faadeced601 assets/modvantheis/models/item/topaz_hammer.json
 0bdea8688c54e3a7d9fcc69f0ad6512b2a2baec2 assets/modvantheis/models/item/topaz_hoe.json
 de75906dd3d91df8a6b7253f8d6a5672e8f4169f assets/modvantheis/models/item/topaz_pickaxe.json
 8449184c6103154d6689ed1f5c27422664d364c0 assets/modvantheis/models/item/topaz_shovel.json

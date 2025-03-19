@@ -1,4 +1,4 @@
-// 1.21	2025-03-19T12:06:46.4197351	Recipes
+// 1.21	2025-03-19T16:07:08.2784594	Recipes
 f6d864ca76d206c3bd8e071508d3b61f06d98af5 data/modvantheis/advancement/recipes/building_blocks/ruby_slab.json
 b2cbe28ab9f7088a66fbf8a25d3f236d1b5a46d1 data/modvantheis/advancement/recipes/building_blocks/ruby_wall.json
 95a642e2dbccdb820ee4007da8a0e3b0e5ed1049 data/modvantheis/advancement/recipes/building_blocks/sapphire_slab.json
@@ -11,6 +11,7 @@ c3e360eaa5c593c8671413bb9aca64d519ebb112 data/modvantheis/advancement/recipes/de
 284410925f6896a0b85bf2e28d49b1b249c62934 data/modvantheis/advancement/recipes/misc/ruby.json
 45dc91c1bad9c734f3cef0027a4685eb1ff353a2 data/modvantheis/advancement/recipes/misc/ruby_axe.json
 c284806256dbfb98fd0c05f6c44c29b0c030de4f data/modvantheis/advancement/recipes/misc/ruby_block.json
+00df5bef683c6fee90025b22f4ae7f4cd04d93d1 data/modvantheis/advancement/recipes/misc/ruby_hammer.json
 c04dd65b6cb9afdfeaa6096ff66a504f650bd36e data/modvantheis/advancement/recipes/misc/ruby_hoe.json
 79f3e006c68b8c0792ba5e3a3b10518af771819f data/modvantheis/advancement/recipes/misc/ruby_pickaxe.json
 48819b6e000bba3821aabe79e04b0461989ea215 data/modvantheis/advancement/recipes/misc/ruby_shovel.json
@@ -18,6 +19,7 @@ c04dd65b6cb9afdfeaa6096ff66a504f650bd36e data/modvantheis/advancement/recipes/mi
 c301ef96549c140460ef14b3be9b50f581b6bf53 data/modvantheis/advancement/recipes/misc/sapphire.json
 d386192384022d29ed36185c48aa436f93e4bb98 data/modvantheis/advancement/recipes/misc/sapphire_axe.json
 3de41767d8185a7fe79dde81f049545c31826f2f data/modvantheis/advancement/recipes/misc/sapphire_block.json
+e38e5b46f0974f6bd572c450693fe772d9cb6038 data/modvantheis/advancement/recipes/misc/sapphire_hammer.json
 edaf9ba387fd11d378422bb4a5194d4b1135e03b data/modvantheis/advancement/recipes/misc/sapphire_hoe.json
 873dd12e703ee7a0a58f59ab2bc6b45cb86cadb5 data/modvantheis/advancement/recipes/misc/sapphire_pickaxe.json
 6e6f0b600500b08eae3b8e45df78effd1dedb61d data/modvantheis/advancement/recipes/misc/sapphire_shovel.json
@@ -25,6 +27,7 @@ edaf9ba387fd11d378422bb4a5194d4b1135e03b data/modvantheis/advancement/recipes/mi
 cd7c3f083e9ae23eb05716a6d150a1c6740eeb06 data/modvantheis/advancement/recipes/misc/topaz.json
 0704b4aa599016e845d480a77a771408610b76f7 data/modvantheis/advancement/recipes/misc/topaz_axe.json
 d4e14a9c8fb1b6ac8048f184ad05f5db58ee55de data/modvantheis/advancement/recipes/misc/topaz_block.json
+929cc9ffd18c35ec671f988327ed85b7b7d2d367 data/modvantheis/advancement/recipes/misc/topaz_hammer.json
 e5afdcc553715516e106471af593afb3bfcedfac data/modvantheis/advancement/recipes/misc/topaz_hoe.json
 37b5927d4e5dec77f440d6abb4324656141d1afa data/modvantheis/advancement/recipes/misc/topaz_pickaxe.json
 810938112979575080e7cc6bd38796be899df5d9 data/modvantheis/advancement/recipes/misc/topaz_shovel.json
@@ -45,6 +48,7 @@ c5626371f79c6353fee1deb37ff54969b1d58c9c data/modvantheis/recipe/ruby_axe.json
 df6becfccfd778b7f5b4b24a3b8dc4fd727f8335 data/modvantheis/recipe/ruby_button.json
 674518f47478d1c206b742ffeb41ee154b433a14 data/modvantheis/recipe/ruby_fence.json
 04d0d555bfe086402a729d53c03dc445b5c06b3c data/modvantheis/recipe/ruby_fence_gate.json
+cdfb1253906d93992e909c24eac96a4f0deadfa8 data/modvantheis/recipe/ruby_hammer.json
 896904d7998af0a5b08530bcab0c9fc396dc231a data/modvantheis/recipe/ruby_hoe.json
 1c1cb037280c48cced8ad93fd3dbeadbf08b88dc data/modvantheis/recipe/ruby_pickaxe.json
 220aec41b28403d66c9ba3e2abf7458e16bff2b6 data/modvantheis/recipe/ruby_pressure_plate.json
@@ -58,6 +62,7 @@ e472a4829d5327f6ac22fa5ea14071a22a1ed36d data/modvantheis/recipe/sapphire_axe.js
 b6bb71a10cfa52c460e7c5c73383b9972fc128ea data/modvantheis/recipe/sapphire_button.json
 75df593c1ed1e798f50b53fd53c8eb43f4de645e data/modvantheis/recipe/sapphire_fence.json
 52aa6c6aeef5012f7094824acf70c655e89dfcdc data/modvantheis/recipe/sapphire_fence_gate.json
+e0b5ce6772cfc154ceedf01f6d8bc44321825c29 data/modvantheis/recipe/sapphire_hammer.json
 3bd602699e98ec61642dc40420884a2e07e393e2 data/modvantheis/recipe/sapphire_hoe.json
 62f6e439313d94da61d05ae57b0fc1098e36d6b8 data/modvantheis/recipe/sapphire_pickaxe.json
 c89457f6ef159229f1d85cb8048e07977b3e6f27 data/modvantheis/recipe/sapphire_pressure_plate.json
@@ -71,6 +76,7 @@ edfec1e7e4efbb88c7db2d3cea9e76c4ba7d9071 data/modvantheis/recipe/topaz_axe.json
 3782b05719941780fa8ad9cfa0fb3330b12e8bfb data/modvantheis/recipe/topaz_button.json
 3a4da71bb85bdfe2ada479a37e6d90c4e947d066 data/modvantheis/recipe/topaz_fence.json
 2accee7ee56479c4c0088b8ce0d55f03be0c850a data/modvantheis/recipe/topaz_fence_gate.json
+418c4159a7c817d0ba89e636a4b0a97150e6270d data/modvantheis/recipe/topaz_hammer.json
 1f612ddfa1fe7ccb41680070d7c310bb4d99efd2 data/modvantheis/recipe/topaz_hoe.json
 4508179d43a7368c509140cac2c76e7b5f22c763 data/modvantheis/recipe/topaz_pickaxe.json
 c2d9c0216d3d4746113cf52a130a247a006e169f data/modvantheis/recipe/topaz_pressure_plate.json

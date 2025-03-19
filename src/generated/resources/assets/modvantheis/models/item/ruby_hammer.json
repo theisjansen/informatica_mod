@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "modvantheis:item/ruby_hammer"
+  }
+}

@@ -7,6 +7,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.fml.common.Mod;
@@ -90,6 +91,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
 
         tag(ModTags.NEEDS_TOPAZ_TOOL)
+                .add(Blocks.BEDROCK)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
         tag(ModTags.INCORRECT_FOR_TOPAZ_TOOL)

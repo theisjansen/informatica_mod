@@ -1,9 +1,11 @@
 package com.theis.tutorial.item;
 
 import com.theis.tutorial.TutorialMod;
+import com.theis.tutorial.item.custom.HammerItem;
 import com.theis.tutorial.item.custom.WandItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -40,6 +42,10 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.TOPAZ, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.TOPAZ, 0, -3.0f))));
 
+    public static final RegistryObject<Item> TOPAZ_HAMMER = ITEMS.register("topaz_hammer",
+            () -> new HammerItem(ModToolTiers.TOPAZ, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.TOPAZ, 8, -4))));
+
     public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",
             () -> new SwordItem(ModToolTiers.RUBY, new Item.Properties()
                     .attributes(SwordItem.createAttributes(ModToolTiers.RUBY, 3, -2.4f))));
@@ -56,6 +62,10 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.RUBY, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.RUBY, 0, -3.0f))));
 
+    public static final RegistryObject<Item> RUBY_HAMMER = ITEMS.register("ruby_hammer",
+            () -> new HammerItem(ModToolTiers.RUBY, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.RUBY, 8, -4))));
+
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
             () -> new SwordItem(ModToolTiers.SAPPHIRE, new Item.Properties()
                     .attributes(SwordItem.createAttributes(ModToolTiers.SAPPHIRE, 3, -2.4f))));
@@ -71,6 +81,10 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",
             () -> new HoeItem(ModToolTiers.SAPPHIRE, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.SAPPHIRE, 0, -3.0f))));
+
+    public static final RegistryObject<Item> SAPPHIRE_HAMMER = ITEMS.register("sapphire_hammer",
+            () -> new HammerItem(ModToolTiers.SAPPHIRE, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.SAPPHIRE, 8, -4))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

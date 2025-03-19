@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "modvantheis:sapphire_block"
+    },
+    "W": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " TT",
+    " WT",
+    " W "
+  ],
+  "result": {
+    "count": 1,
+    "id": "modvantheis:sapphire_hammer"
+  }
+}

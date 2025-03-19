@@ -43,18 +43,21 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.TOPAZ_SHOVEL);
         handheldItem(ModItems.TOPAZ_AXE);
         handheldItem(ModItems.TOPAZ_HOE);
+        handheldItem(ModItems.TOPAZ_HAMMER);
 
         handheldItem(ModItems.RUBY_SWORD);
         handheldItem(ModItems.RUBY_PICKAXE);
         handheldItem(ModItems.RUBY_SHOVEL);
         handheldItem(ModItems.RUBY_AXE);
         handheldItem(ModItems.RUBY_HOE);
+        handheldItem(ModItems.RUBY_HAMMER);
 
         handheldItem(ModItems.SAPPHIRE_SWORD);
         handheldItem(ModItems.SAPPHIRE_PICKAXE);
         handheldItem(ModItems.SAPPHIRE_SHOVEL);
         handheldItem(ModItems.SAPPHIRE_AXE);
         handheldItem(ModItems.SAPPHIRE_HOE);
+        handheldItem(ModItems.SAPPHIRE_HAMMER);
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
