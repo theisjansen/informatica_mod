@@ -5,8 +5,11 @@ import com.theis.tutorial.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraftforge.registries.RegistryObject;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -103,5 +106,65 @@ public class ModRecipeProvider extends RecipeProvider {
         fenceGateBuilder(ModBlocks.SAPPHIRE_FENCE_GATE.get(), Ingredient.of(ModItems.SAPPHIRE.get())).group("alexandrite")
                 .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get())).save(pRecipeOutput);
         wall(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SAPPHIRE_WALL.get(), ModItems.SAPPHIRE.get());
+
+        makeTools(ModItems.TOPAZ, ModItems.TOPAZ_SWORD, ModItems.TOPAZ_PICKAXE, ModItems.TOPAZ_SHOVEL, ModItems.TOPAZ_AXE, ModItems.TOPAZ_HOE, pRecipeOutput);
+        makeTools(ModItems.RUBY, ModItems.RUBY_SWORD, ModItems.RUBY_PICKAXE, ModItems.RUBY_SHOVEL, ModItems.RUBY_AXE, ModItems.RUBY_HOE, pRecipeOutput);
+        makeTools(ModItems.SAPPHIRE, ModItems.SAPPHIRE_SWORD, ModItems.SAPPHIRE_PICKAXE, ModItems.SAPPHIRE_SHOVEL, ModItems.SAPPHIRE_AXE, ModItems.SAPPHIRE_HOE, pRecipeOutput);
+
+
     }
+    public void makeTools(RegistryObject<Item> gem, RegistryObject<Item> sword, RegistryObject<Item> pickaxe, RegistryObject<Item> shovel, RegistryObject<Item> axe, RegistryObject<Item> hoe, RecipeOutput pRecipeOutput) {
+        // Sword recipe
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, sword.get())
+                .pattern("T")
+                .pattern("T")
+                .pattern("W")
+                .define('T', gem.get())
+                .define('W', Items.STICK)
+                .unlockedBy(getHasName(gem.get()), has(gem.get()))
+                .save(pRecipeOutput);
+
+        // Pickaxe recipe
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, pickaxe.get())
+                .pattern("TTT")
+                .pattern(" W ")
+                .pattern(" W ")
+                .define('T', gem.get())
+                .define('W', Items.STICK)
+                .unlockedBy(getHasName(gem.get()), has(gem.get()))
+                .save(pRecipeOutput);
+
+        // Shovel recipe
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, shovel.get())
+                .pattern(" T ")
+                .pattern(" W ")
+                .pattern(" W ")
+                .define('T', gem.get())
+                .define('W', Items.STICK)
+                .unlockedBy(getHasName(gem.get()), has(gem.get()))
+                .save(pRecipeOutput);
+
+
+        // Axe recipe (Right-to-left, mirrored)
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, axe.get())
+                .pattern(" TT")
+                .pattern(" WT")
+                .pattern(" W ")
+                .define('T', gem.get())
+                .define('W', Items.STICK)
+                .unlockedBy(getHasName(gem.get()), has(gem.get()))
+                .save(pRecipeOutput);
+
+
+        // Hoe recipe (Right-to-left, mirrored)
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, hoe.get())
+                .pattern(" TT")
+                .pattern(" W ")
+                .pattern(" W ")
+                .define('T', gem.get())
+                .define('W', Items.STICK)
+                .unlockedBy(getHasName(gem.get()), has(gem.get()))
+                .save(pRecipeOutput);
+    }
+
 }

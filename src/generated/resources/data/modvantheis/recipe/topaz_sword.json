@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "modvantheis:topaz"
+    },
+    "W": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "T",
+    "T",
+    "W"
+  ],
+  "result": {
+    "count": 1,
+    "id": "modvantheis:topaz_sword"
+  }
+}

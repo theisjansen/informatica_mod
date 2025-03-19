@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "modvantheis:block/topaz_lamp_off"
+    },
+    "clicked=true": {
+      "model": "modvantheis:block/topaz_lamp_on"
+    }
+  }
+}

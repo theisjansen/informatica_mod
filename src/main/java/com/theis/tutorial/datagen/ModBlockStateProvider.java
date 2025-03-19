@@ -2,9 +2,12 @@ package com.theis.tutorial.datagen;
 
 import com.theis.tutorial.TutorialMod;
 import com.theis.tutorial.block.ModBlocks;
+import com.theis.tutorial.block.custom.TopazLampBlock;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -62,6 +65,24 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.SAPPHIRE_SLAB);
         blockItem(ModBlocks.SAPPHIRE_PRESSURE_PLATE);
         blockItem(ModBlocks.SAPPHIRE_FENCE_GATE);
+
+        customLamp(ModBlocks.TOPAZ_LAMP, "topaz");
+        customLamp(ModBlocks.SAPPHIRE_LAMP, "sapphire");
+        customLamp(ModBlocks.RUBY_LAMP, "ruby");
+    }
+
+    private void customLamp(RegistryObject<Block> lampHoofd, String lampLaag) {
+        getVariantBuilder(lampHoofd.get()).forAllStates(state -> {
+            if(state.getValue(TopazLampBlock.CLICKED)) {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll(lampLaag + "_lamp_on",
+                        ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "block/" + lampLaag + "_lamp_on")))};
+            } else {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll(lampLaag + "_lamp_off",
+                        ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "block/" + lampLaag + "_lamp_off")))};
+            }
+        });
+        simpleBlockItem(lampHoofd.get(), models().cubeAll(lampLaag + "_lamp_on",
+                ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "block/" + lampLaag + "_lamp_on")));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

@@ -1,7 +1,13 @@
-// 1.21	2025-03-19T00:43:27.8617033	Tags for minecraft:block mod id modvantheis
+// 1.21	2025-03-19T12:06:46.4157459	Tags for minecraft:block mod id modvantheis
 ea3de5d976d5495336c8a643cada3bbd2e88a8aa data/minecraft/tags/block/fences.json
 45e2e7181c7d2ece8a79f9cfd4907b34114ddbb8 data/minecraft/tags/block/fence_gates.json
 8b0569e5684e6e0b2d779e919d7418fa157e28a8 data/minecraft/tags/block/mineable/pickaxe.json
 6c3b59c11b953246b51bf564c961d1a207cd555d data/minecraft/tags/block/needs_diamond_tool.json
 f1696288238e294b9e203cb790fe872230ca8687 data/minecraft/tags/block/needs_iron_tool.json
 08cb44c8bc15ad1909540ffbcefc9c110cc8e4fb data/minecraft/tags/block/walls.json
+a133b424ba78ab95f8b56875a2281bccd102520a data/modvantheis/tags/block/incorrect_for_ruby_tool.json
+cd3f80ec1486ca43d7ad7bf0440e9ae5787eedcb data/modvantheis/tags/block/incorrect_for_sapphire_tool.json
+d3a0d78b373bac017e93840e965ebfc815d8fe5a data/modvantheis/tags/block/incorrect_for_topaz_tool.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data/modvantheis/tags/block/needs_ruby_tool.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data/modvantheis/tags/block/needs_sapphire_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data/modvantheis/tags/block/needs_topaz_tool.json

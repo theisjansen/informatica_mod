@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "modvantheis:ruby"
+    },
+    "W": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " T ",
+    " W ",
+    " W "
+  ],
+  "result": {
+    "count": 1,
+    "id": "modvantheis:ruby_shovel"
+  }
+}

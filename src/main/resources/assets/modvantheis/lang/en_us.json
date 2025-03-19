@@ -4,6 +4,24 @@
   "item.modvantheis.ruby": "Ruby",
   "item.modvantheis.wand": "Wand",
 
+  "item.modvantheis.topaz_sword": "Topaz Sword",
+  "item.modvantheis.topaz_pickaxe": "Topaz Pickaxe",
+  "item.modvantheis.topaz_shovel": "Topaz Shovel",
+  "item.modvantheis.topaz_axe": "Topaz Axe",
+  "item.modvantheis.topaz_hoe": "Topaz Hoe",
+
+  "item.modvantheis.sapphire_sword": "Sapphire Sword",
+  "item.modvantheis.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.modvantheis.sapphire_shovel": "Sapphire Shovel",
+  "item.modvantheis.sapphire_axe": "Sapphire Axe",
+  "item.modvantheis.sapphire_hoe": "Sapphire Hoe",
+
+  "item.modvantheis.ruby_sword": "Ruby Sword",
+  "item.modvantheis.ruby_pickaxe": "Ruby Pickaxe",
+  "item.modvantheis.ruby_shovel": "Ruby Shovel",
+  "item.modvantheis.ruby_axe": "Ruby Axe",
+  "item.modvantheis.ruby_hoe": "Ruby Hoe",
+
   "block.modvantheis.topaz_block": "Block of Topaz",
   "block.modvantheis.topaz_ore": "Topaz Ore",
   "block.modvantheis.sapphire_block": "Block of Sapphire",
@@ -18,6 +36,10 @@
   "block.modvantheis.topaz_fence": "Topaz Fence",
   "block.modvantheis.topaz_fence_gate": "Topaz Fence Gate",
   "block.modvantheis.topaz_wall": "Topaz Wall",
+
+  "block.modvantheis.topaz_lamp": "Topaz Lamp",
+  "block.modvantheis.sapphire_lamp": "Sapphire Lamp",
+  "block.modvantheis.ruby_lamp": "Ruby Lamp",
 
   "block.modvantheis.ruby_stairs": "Ruby Stairs",
   "block.modvantheis.ruby_slab": "Ruby Slab",

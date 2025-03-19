@@ -1,6 +1,7 @@
 package com.theis.tutorial.block;
 
 import com.theis.tutorial.TutorialMod;
+import com.theis.tutorial.block.custom.TopazLampBlock;
 import com.theis.tutorial.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -99,6 +100,19 @@ public class ModBlocks {
             () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
     public static final RegistryObject<WallBlock> SAPPHIRE_WALL = registerBlock("sapphire_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+
+    public static final RegistryObject<Block> TOPAZ_LAMP = registerBlock("topaz_lamp",
+            () -> new TopazLampBlock(BlockBehaviour.Properties.of().strength(3f)
+                    .lightLevel(state -> state.getValue(TopazLampBlock.CLICKED) ? 15 : 0)));
+
+    public static final RegistryObject<Block> SAPPHIRE_LAMP = registerBlock("sapphire_lamp",
+            () -> new TopazLampBlock(BlockBehaviour.Properties.of().strength(3f)
+                    .lightLevel(state -> state.getValue(TopazLampBlock.CLICKED) ? 15 : 0)));
+
+    public static final RegistryObject<Block> RUBY_LAMP = registerBlock("ruby_lamp",
+            () -> new TopazLampBlock(BlockBehaviour.Properties.of().strength(3f)
+                    .lightLevel(state -> state.getValue(TopazLampBlock.CLICKED) ? 15 : 0)));
 
 
 

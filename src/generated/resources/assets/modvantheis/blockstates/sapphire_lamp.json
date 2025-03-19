@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "modvantheis:block/sapphire_lamp_off"
+    },
+    "clicked=true": {
+      "model": "modvantheis:block/sapphire_lamp_on"
+    }
+  }
+}

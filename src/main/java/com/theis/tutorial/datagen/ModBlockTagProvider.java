@@ -2,6 +2,7 @@ package com.theis.tutorial.datagen;
 
 import com.theis.tutorial.TutorialMod;
 import com.theis.tutorial.block.ModBlocks;
+import com.theis.tutorial.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -86,5 +87,27 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.FENCES).add(ModBlocks.SAPPHIRE_FENCE.get());
         tag(BlockTags.FENCE_GATES).add(ModBlocks.SAPPHIRE_FENCE_GATE.get());
         tag(BlockTags.WALLS).add(ModBlocks.SAPPHIRE_WALL.get());
+
+
+        tag(ModTags.NEEDS_TOPAZ_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        tag(ModTags.INCORRECT_FOR_TOPAZ_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
+                .remove(ModTags.NEEDS_TOPAZ_TOOL);
+
+        tag(ModTags.NEEDS_RUBY_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        tag(ModTags.INCORRECT_FOR_RUBY_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.NEEDS_RUBY_TOOL);
+
+        tag(ModTags.NEEDS_SAPPHIRE_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        tag(ModTags.INCORRECT_FOR_SAPPHIRE_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.NEEDS_SAPPHIRE_TOOL);
     }
 }

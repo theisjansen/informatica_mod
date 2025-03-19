@@ -57,6 +57,10 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createOreDrop(ModBlocks.RUBY_ORE.get(), ModItems.RUBY.get()));
         this.add(ModBlocks.SAPPHIRE_ORE.get(),
                 block -> createOreDrop(ModBlocks.SAPPHIRE_ORE.get(), ModItems.SAPPHIRE.get()));
+
+        dropSelf(ModBlocks.TOPAZ_LAMP.get());
+        dropSelf(ModBlocks.SAPPHIRE_LAMP.get());
+        dropSelf(ModBlocks.RUBY_LAMP.get());
     }
 
     @Override

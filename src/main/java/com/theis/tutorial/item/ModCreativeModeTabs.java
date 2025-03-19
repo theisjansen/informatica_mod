@@ -19,8 +19,26 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.modvantheis.mod_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.TOPAZ.get());
+                        output.accept(ModItems.TOPAZ_SWORD.get());
+                        output.accept(ModItems.TOPAZ_PICKAXE.get());
+                        output.accept(ModItems.TOPAZ_SHOVEL.get());
+                        output.accept(ModItems.TOPAZ_AXE.get());
+                        output.accept(ModItems.TOPAZ_HOE.get());
+
                         output.accept(ModItems.SAPPHIRE.get());
+                        output.accept(ModItems.SAPPHIRE_SWORD.get());
+                        output.accept(ModItems.SAPPHIRE_PICKAXE.get());
+                        output.accept(ModItems.SAPPHIRE_SHOVEL.get());
+                        output.accept(ModItems.SAPPHIRE_AXE.get());
+                        output.accept(ModItems.SAPPHIRE_HOE.get());
+
                         output.accept(ModItems.RUBY.get());
+                        output.accept(ModItems.RUBY_SWORD.get());
+                        output.accept(ModItems.RUBY_PICKAXE.get());
+                        output.accept(ModItems.RUBY_SHOVEL.get());
+                        output.accept(ModItems.RUBY_AXE.get());
+                        output.accept(ModItems.RUBY_HOE.get());
+
                         output.accept(ModItems.WAND.get());
                     }).build());
 
@@ -57,6 +75,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RUBY_FENCE_GATE.get());
                         output.accept(ModBlocks.RUBY_WALL.get());
                         output.accept(ModBlocks.RUBY_ORE.get());
+                        output.accept(ModBlocks.TOPAZ_LAMP.get());
+                        output.accept(ModBlocks.SAPPHIRE_LAMP.get());
+                        output.accept(ModBlocks.RUBY_LAMP.get());
 
 
                     }).build());
