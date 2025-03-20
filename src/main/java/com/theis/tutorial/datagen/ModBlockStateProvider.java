@@ -26,6 +26,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.RUBY_ORE);
         blockWithItem(ModBlocks.TOPAZ_ORE);
         blockWithItem(ModBlocks.SAPPHIRE_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_RUBY_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_TOPAZ_ORE);
 
         stairsBlock(ModBlocks.TOPAZ_STAIRS.get(), blockTexture(ModBlocks.TOPAZ_BLOCK.get()));
         slabBlock(ModBlocks.TOPAZ_SLAB.get(), blockTexture(ModBlocks.TOPAZ_BLOCK.get()), blockTexture(ModBlocks.TOPAZ_BLOCK.get()));

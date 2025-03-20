@@ -27,10 +27,13 @@
 
   "block.modvantheis.topaz_block": "Block of Topaz",
   "block.modvantheis.topaz_ore": "Topaz Ore",
+  "block.modvantheis.deepslate_topaz_ore": "Deepslate Topaz Ore",
   "block.modvantheis.sapphire_block": "Block of Sapphire",
   "block.modvantheis.sapphire_ore": "Sapphire Ore",
+  "block.modvantheis.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "block.modvantheis.ruby_block": "Block of Ruby",
-  "block.modvantheis.ruby_ore": "Ruby",
+  "block.modvantheis.ruby_ore": "Ruby Ore",
+  "block.modvantheis.deepslate_ruby_ore": "Deepslate Ruby Ore",
 
   "item.modvantheis.topaz_helmet": "Topaz Helmet",
   "item.modvantheis.topaz_chestplate": "Topaz Chestplate",

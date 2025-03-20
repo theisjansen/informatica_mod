@@ -1,9 +1,9 @@
-// 1.21	2025-03-19T15:56:08.851787	Tags for minecraft:block mod id modvantheis
+// 1.21	2025-03-20T15:12:20.8811866	Tags for minecraft:block mod id modvantheis
 ea3de5d976d5495336c8a643cada3bbd2e88a8aa data/minecraft/tags/block/fences.json
 45e2e7181c7d2ece8a79f9cfd4907b34114ddbb8 data/minecraft/tags/block/fence_gates.json
 8b0569e5684e6e0b2d779e919d7418fa157e28a8 data/minecraft/tags/block/mineable/pickaxe.json
-6c3b59c11b953246b51bf564c961d1a207cd555d data/minecraft/tags/block/needs_diamond_tool.json
-f1696288238e294b9e203cb790fe872230ca8687 data/minecraft/tags/block/needs_iron_tool.json
+db2585fa1e61f382ad540f9f4aaa231fb40254d3 data/minecraft/tags/block/needs_diamond_tool.json
+b906e3e9fb8d36496b321811a4b29e71b4405861 data/minecraft/tags/block/needs_iron_tool.json
 08cb44c8bc15ad1909540ffbcefc9c110cc8e4fb data/minecraft/tags/block/walls.json
 a133b424ba78ab95f8b56875a2281bccd102520a data/modvantheis/tags/block/incorrect_for_ruby_tool.json
 cd3f80ec1486ca43d7ad7bf0440e9ae5787eedcb data/modvantheis/tags/block/incorrect_for_sapphire_tool.json

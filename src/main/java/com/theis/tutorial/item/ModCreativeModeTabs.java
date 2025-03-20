@@ -75,6 +75,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.TOPAZ_FENCE_GATE.get());
                         output.accept(ModBlocks.TOPAZ_WALL.get());
                         output.accept(ModBlocks.TOPAZ_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_TOPAZ_ORE.get());
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.SAPPHIRE_STAIRS.get());
                         output.accept(ModBlocks.SAPPHIRE_SLAB.get());
@@ -84,6 +85,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SAPPHIRE_FENCE_GATE.get());
                         output.accept(ModBlocks.SAPPHIRE_WALL.get());
                         output.accept(ModBlocks.SAPPHIRE_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
                         output.accept(ModBlocks.RUBY_BLOCK.get());
                         output.accept(ModBlocks.RUBY_BLOCK.get());
                         output.accept(ModBlocks.RUBY_STAIRS.get());
@@ -94,6 +96,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RUBY_FENCE_GATE.get());
                         output.accept(ModBlocks.RUBY_WALL.get());
                         output.accept(ModBlocks.RUBY_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
                         output.accept(ModBlocks.TOPAZ_LAMP.get());
                         output.accept(ModBlocks.SAPPHIRE_LAMP.get());
                         output.accept(ModBlocks.RUBY_LAMP.get());

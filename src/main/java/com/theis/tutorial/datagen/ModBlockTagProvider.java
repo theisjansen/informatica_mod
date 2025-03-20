@@ -60,6 +60,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.TOPAZ_FENCE_GATE.get())
                 .add(ModBlocks.TOPAZ_WALL.get())
                 .add(ModBlocks.RUBY_ORE.get())
+                .add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get())
+                .add(ModBlocks.DEEPSLATE_RUBY_ORE.get())
                 .add(ModBlocks.SAPPHIRE_BLOCK.get())
                 .add(ModBlocks.SAPPHIRE_ORE.get())
                 .add(ModBlocks.RUBY_STAIRS.get())
@@ -78,7 +80,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.SAPPHIRE_WALL.get());
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.TOPAZ_BLOCK.get())
-                .add(ModBlocks.TOPAZ_ORE.get());
+                .add(ModBlocks.TOPAZ_ORE.get())
+                .add(ModBlocks.DEEPSLATE_TOPAZ_ORE.get());
         tag(BlockTags.FENCES).add(ModBlocks.TOPAZ_FENCE.get());
         tag(BlockTags.FENCE_GATES).add(ModBlocks.TOPAZ_FENCE_GATE.get());
         tag(BlockTags.WALLS).add(ModBlocks.TOPAZ_WALL.get());

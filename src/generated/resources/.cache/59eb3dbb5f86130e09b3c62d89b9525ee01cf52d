@@ -1,4 +1,7 @@
-// 1.21	2025-03-19T10:29:25.5195708	Loot Tables
+// 1.21	2025-03-20T15:12:20.8821494	Loot Tables
+c0644d7c00f20fc52ba74cf012a75b9e22bc9fc9 data/modvantheis/loot_table/blocks/deepslate_ruby_ore.json
+45510595e1d4997772a47e15ed70c07fc373a3df data/modvantheis/loot_table/blocks/deepslate_sapphire_ore.json
+b53343f27981ed7ca4905bb508e22eb733408dab data/modvantheis/loot_table/blocks/deepslate_topaz_ore.json
 935ed39a60ae52725a7eb943f16789543c4c9c2e data/modvantheis/loot_table/blocks/ruby_block.json
 a6dc49b63916097cef505ec0cb3292b2e8157c0e data/modvantheis/loot_table/blocks/ruby_button.json
 045eba5436877a7ce39ee642a9947883307ac2ec data/modvantheis/loot_table/blocks/ruby_fence.json

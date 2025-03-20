@@ -1,4 +1,7 @@
-// 1.21	2025-03-19T10:29:25.5215657	Block States: modvantheis
+// 1.21	2025-03-20T15:12:20.8841437	Block States: modvantheis
+d717de5702f0dc762bf65f18489a32bb80694a92 assets/modvantheis/blockstates/deepslate_ruby_ore.json
+072519de371fbc40a8dfd14d9949e4bc4d04bbf1 assets/modvantheis/blockstates/deepslate_sapphire_ore.json
+bf99f6d380a230c64d5b03e0869516d0ae1c7261 assets/modvantheis/blockstates/deepslate_topaz_ore.json
 1d1f6a57f2e35a2e89c6f2d7bfcbe7e7c9bbf3e9 assets/modvantheis/blockstates/ruby_block.json
 91ab5f7091e15a109707764d5d1b89717659c529 assets/modvantheis/blockstates/ruby_button.json
 2edd0edcc2eacff3f1a655b7b861c1cf4ed5f46b assets/modvantheis/blockstates/ruby_fence.json
@@ -29,6 +32,9 @@ aa52bb2eec7bac7e92a1fa25165169110c938937 assets/modvantheis/blockstates/topaz_or
 26ad95998886f8e8d8724696d1696b6999411e8f assets/modvantheis/blockstates/topaz_slab.json
 78bc4b2540fb594f025604f67df18b11b1855307 assets/modvantheis/blockstates/topaz_stairs.json
 ee9b1737e23d108c44606dc2f61e5c6e7173793d assets/modvantheis/blockstates/topaz_wall.json
+2dd41d80772ad207c57b1e9f54fb835d54f5018f assets/modvantheis/models/block/deepslate_ruby_ore.json
+7beaf19598cc7e1edd8a72df543185fc61bb62a8 assets/modvantheis/models/block/deepslate_sapphire_ore.json
+554a4499783a824b19f31098d84a6b34cd3600a7 assets/modvantheis/models/block/deepslate_topaz_ore.json
 65e44b68faba0925ac25567439e61c95771b7310 assets/modvantheis/models/block/ruby_block.json
 98b1bd1647d51c946cd0bb8c0baa68982a66cc0e assets/modvantheis/models/block/ruby_button.json
 eaec3785aa7885df4ca1335be5f954c34f793126 assets/modvantheis/models/block/ruby_button_pressed.json
@@ -95,6 +101,9 @@ eca7ce060ecff9d5f95fb74b52ceb645e478bd6d assets/modvantheis/models/block/topaz_s
 7c4a25707a3378b897ace16926022d5322e158c2 assets/modvantheis/models/block/topaz_wall_post.json
 797785b0fd845d6505e29d7ccd36afb7d6fb5699 assets/modvantheis/models/block/topaz_wall_side.json
 65824a2eb949395aad83dc7bf2c93b34284b989b assets/modvantheis/models/block/topaz_wall_side_tall.json
+f83060b5e1f3d33928a604671098c7ebd131c936 assets/modvantheis/models/item/deepslate_ruby_ore.json
+38f9444f53af9ddf1bc9e9c5a9fc9e26ec8d1670 assets/modvantheis/models/item/deepslate_sapphire_ore.json
+31240f9e1d5cb762af10b96dce177ed0c04ecc74 assets/modvantheis/models/item/deepslate_topaz_ore.json
 e2a81a4908a89c5f7fcbce426e8209081b501795 assets/modvantheis/models/item/ruby_block.json
 3592f0775e77fef452b79a9a8acf47db9c444e81 assets/modvantheis/models/item/ruby_fence_gate.json
 685ba37c482bf5794c57f93729d583c90e396313 assets/modvantheis/models/item/ruby_lamp.json
